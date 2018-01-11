@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
+
 export class NavMenu extends React.Component<{}, {}> {
     public render() {
         return <div className='main-nav'>
@@ -24,12 +25,12 @@ export class NavMenu extends React.Component<{}, {}> {
                         </li>
                         <li>
                             <NavLink to={ '/counter' } activeClassName='active'>
-                                <span className='glyphicon glyphicon-education'></span> Data
+                                <span className='glyphicon glyphicon-file'></span> Data
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to={ '/fetchdata' } activeClassName='active'>
-                                <span className='glyphicon glyphicon-th-list'></span> About
+                                <span className='gglyphicon glyphicon-info-sign'></span> About
                             </NavLink>
                         </li>
                     </ul>
